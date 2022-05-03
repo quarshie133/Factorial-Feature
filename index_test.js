@@ -13,3 +13,13 @@ describe('Calculate', () => {
       assert.equal(result, expectedResult)
 
     });
+
+     it('result 6 if the input is 3.', () => {
+      //setup
+       const inputNumber = 3;
+       const expectedResult = 6;
+            //exercise
+       const result = Calculate.factorial(inputNumber)
+            //verify
+       assert.equal(result, expectedResult)
+    });
